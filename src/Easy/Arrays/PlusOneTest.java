@@ -1,10 +1,12 @@
 package Easy.Arrays;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Arrays;
 
 public class PlusOneTest {
     // 我的答案
-    public static int[] plusOne(int[] digits) {
+    public static int[] plusOne(@NotNull int[] digits) {
         int len = digits.length;
         int p = 1;
         int i;
